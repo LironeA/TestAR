@@ -4,10 +4,15 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: d99ea17ed83a1474d8e3897fbb1ccf62, type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 33ae7953ec11d0a42a97c32e469e484e, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 9209d8859da582343a10c17b62c0461e, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 89661a0f963434d43ac42c6e29104c9d, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: caa6e74de52b7874798173728a0525cd, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: b5dfbac715a449a4b99dd5fc60fcc063, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 2f1484219386a6848a04a484e04d70b2, type: 2}
